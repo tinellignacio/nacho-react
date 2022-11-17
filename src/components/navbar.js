@@ -1,5 +1,5 @@
 import CardWidget from "./cartWidget";
-import HomeWidget from "./homeWidget";
+// import HomeWidget from "./homeWidget";
 
 function NavBar() {
 	return (
@@ -7,7 +7,7 @@ function NavBar() {
 			<nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
 				<div class="container-fluid">
 					<a className="navbar-brand" href="index.html">
-						<HomeWidget />
+						Home
 					</a>
 					<button
 						className="navbar-toggler"
